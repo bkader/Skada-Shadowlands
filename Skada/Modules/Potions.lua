@@ -443,6 +443,27 @@ Skada:RegisterModule("Potions", function(L, P, G, C, _, O)
 		potion_ids[300741] = "169300" -- Potion of Wild Mending
 		potion_ids[301308] = "169451" -- Abyssal Healing Potion
 
+		--[[ Shadowlands ]]--
+		potion_ids[307159] = "171270" -- Potion of Spectral Agility
+		potion_ids[307160] = "171271" -- Potion of Hardened Shadows
+		potion_ids[307161] = "171272" -- Potion of Spiritual Clarity
+		potion_ids[307162] = "171273" -- Potion of Spectral Intellect
+		potion_ids[307163] = "171274" -- Potion of Spectral Stamina
+		potion_ids[307164] = "171275" -- Potion of Spectral Strength
+		potion_ids[307192] = "171267" -- Spiritual Healing Potion
+		potion_ids[307193] = "171268" -- Spiritual Mana Potion
+		potion_ids[307194] = "171269" -- Spiritual Rejuvenation Potion
+		potion_ids[307195] = "171266" -- Potion of the Hidden Spirit
+		potion_ids[307196] = "171264" -- Potion of Shadow Sight
+		potion_ids[307199] = "171263" -- Potion of Soul Purity
+		potion_ids[307494] = "171352" -- Potion of Empowered Exorcisms
+		potion_ids[307495] = "171349" -- Potion of Phantom Fire
+		potion_ids[307496] = "171350" -- Potion of Divine Awakening
+		potion_ids[307497] = "171351" -- Potion of Deathly Fixation
+		potion_ids[307501] = "171370" -- Potion of Specter Swiftness
+		potion_ids[322302] = "176811" -- Potion of Sacrificial Anima
+		potion_ids[323436] = "177278" -- Phial of Serenity
+
 		-- don't edit below unless you know what you're doing.
 		if P.prepotion == nil then
 			P.prepotion = true
